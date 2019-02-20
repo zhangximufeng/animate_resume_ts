@@ -5835,7 +5835,8 @@ Prism.languages.js = Prism.languages.javascript;
 },{}],4:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.resume = `# Qi
+exports.resume = `
+# 张熙沐枫
 
 Front End Engineer
 
@@ -5846,7 +5847,7 @@ Front End Engineer
 
 # Work Experience
 
-* 上海垓方
+* 宜信
 
 # Projects
 
@@ -5854,10 +5855,10 @@ Front End Engineer
 
 # My Source
 
-* [vue_teris](https://qishaoxuan.github.io/vue_tetris/)
-* [CSS Tricks](https://qishaoxuan.github.io/css_tricks/)
-* [JS Tricks](https://qishaoxuan.github.io/js_tricks/)
-* [Blog](https://qishaoxuan.github.io/blog/)
+* [vuepress-theme-mufeng](https://zhangximufeng.github/vuepress-theme-mufeng/)
+* [css_tricks](https://zhangximufeng.github.io/css_tricks/)
+* [js_tricks](https://zhangximufeng.github.io/js_tricks/)
+* [blog](https://qishaoxuan.github.io/)
 `;
 
 },{}],5:[function(require,module,exports){
@@ -5867,12 +5868,12 @@ const untils_1 = require("../scripts/animateResume/untils/untils");
 const is_mobile = untils_1.isMobile();
 exports.style1 = `/**
  *
- * Hey. My name's qishaoxuan. I'm a web developer.
+ * Hey. 我叫张熙沐枫. 前端高级开发.
  *
- * I build a animating resume
+ * 这是我的动态简历
  *
- * Let's begin. We start by animating...
- * yes, everything.
+ * 废话少说. 现在开始...
+ *
  */
 
 * {
@@ -5880,10 +5881,10 @@ exports.style1 = `/**
 }
 
 /**
- * It seems to do noting. But you'll see.
+ * 这个动画好像看起来没什么用.
  *
- * Black on white is really boring,
- * change threm first.
+ * 白纸黑字看起来好刺眼,
+ * 说改就改...
  */
 
 html {
@@ -5893,7 +5894,7 @@ html {
 }
 
 /***
- * Hold on...
+ * 继续...
  */
 
 pre, a {
@@ -5901,11 +5902,11 @@ pre, a {
 }
 
 /**
- * That's better.
+ * 现在好点了.
  *
- * Working in this big rempty space is tough.
+ * 这个地方有点憋屈.
  *
- * I'm going to make a nice area to show the content.
+ * 我们重新建个地方.
  */
 
 pre:not(:empty) {
@@ -5931,8 +5932,8 @@ pre:not(:empty) {
 }
 
 /**
- * This is good, but all the text is white!
- * Let's make it more readable.
+ * 漂亮! 但是这个可读性不太友好
+ * 让我们来给它点样式.
  */
 
 #style-container  { color: #DEDEDE }
@@ -5944,7 +5945,7 @@ pre:not(:empty) {
 .punctuation   { color: #FFCF00; }
 
 /**
- * It\`s time to get a little perspective.
+ * 现在好一点了
  */
 
 body {
@@ -5957,8 +5958,8 @@ body {
 }
 
 /**
- * Okey, it is time to show the resume.
- * You must not just come to see the pretty colors.
+ * 好了，现在是展示简历的时候了
+ * 你不能只是来看动效 ->_->
  */
 
  #resume-container {
@@ -5976,7 +5977,7 @@ body {
 }
 `;
 exports.style2 = `/**
- * That markdown on the left doesn't look great. Let's render it.
+ * markdown 看起来不是太好
  */
 
 #resume-container{
@@ -6002,13 +6003,11 @@ exports.style2 = `/**
 }
 
 /**
- * Okey, this is almost done.
+ * 好了，差不多了。
  *
- * This page is inspired by http://strml.net/， which was what I met when I was a beginner of js.
+ * 效果来自 by http://strml.net/
  *
- * It is really surprise me, and now I can code it by myself.
- *
- * Ertainly，most of sentences is from that, my English is very poor~ after all.
+ * 本项目地址 https://github.com/zhangximufeng/animate_resume_ts.git.
  *
  */`;
 

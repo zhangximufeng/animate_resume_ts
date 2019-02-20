@@ -1,5 +1,5 @@
 {
-  "name": "ts_gulp",
+  "name": "animate_resume_ts",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
@@ -37,7 +37,7 @@
     "typescript": "^3.2.2",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0",
-    "watchify": "^3.11.0"
+    "watchify": "^3.11.1"
   },
   "dependencies": {
     "@types/better-scroll": "^1.12.1",
