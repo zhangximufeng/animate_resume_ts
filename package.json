@@ -5,7 +5,9 @@
   "homepage": "https://zhangximufeng.github.io/animate_resume_ts",
   "main": "gulpfile.js",
   "scripts": {
-    "deploy": "gh-pages -d docs"
+    "start":"gulp",
+    "build":"gulp build",
+    "deploy": "npm run build && gh-pages -d docs"
   },
   "author": "",
   "license": "ISC",
