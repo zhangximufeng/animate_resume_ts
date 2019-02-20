@@ -18,7 +18,7 @@ Front End Engineer
 
 # My Source
 
-* [vuepress-theme-mufeng](https://zhangximufeng.github/vuepress-theme-mufeng/)
+* [vuepress-theme-mufeng](https://github.com/zhangximufeng/vuepress-theme-mufeng)
 * [css_tricks](https://zhangximufeng.github.io/css_tricks/)
 * [js_tricks](https://zhangximufeng.github.io/js_tricks/)
 * [blog](https://zhangximufeng.github.io/)
