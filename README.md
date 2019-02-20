@@ -2,7 +2,7 @@
 
 ## 在线观看 view online
 
-https://qishaoxuan.github.io/animate_resume_ts/
+https://zhangximufeng.github.io/animate_resume_ts/
 
 ## 关于 features
 

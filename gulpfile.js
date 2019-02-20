@@ -12,6 +12,7 @@ const del = require('del')
 const cssMin = require('gulp-css')
 const htmlMin = require('gulp-htmlmin')
 const browserSync = require("browser-sync").create()
+const ghpages = require('gh-pages')
 
 gulp.task('delete', function (cb) {
   return del(['docs/*'], cb)

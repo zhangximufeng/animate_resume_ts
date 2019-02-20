@@ -2,8 +2,8 @@
 
 ## 先看效果
 
-[请戳这里看预览](https://qishaoxuan.github.io/animate_resume_ts/)
-[这里是代码](https://github.com/QiShaoXuan/animate_resume_ts)
+[请戳这里看预览](https://zhangximufeng.github.io/animate_resume_ts/)
+[这里是代码](https://github.com/zhangximufeng/animate_resume_ts)
 
 ## 见过了？别走，这是与众不同的地方
 
@@ -72,7 +72,7 @@ function getStyleEl() {
 将 `CSS` 代码写入
 ```js
 /**
- * 
+ *
  * @param {string} style - CSS 代码
  * @param {HTMLElement} el - 创建的 style 标签
  */
@@ -122,12 +122,12 @@ switch (type) {
 /**
  * @param {HTMLElement} container - 字符渲染的容器
  * @param {Object} options - 动画参数
- * 
+ *
  * @param {string} options.content.load - 需要渲染的字符串
  * @param {'css' | 'md'} options.content.type - 渲染后高亮的方式，当前仅支持 'css' | 'md' 两个参数
  * @param {string} options.content.id - 渲染容器的 id
  * @param {boolean} options.content.rewrite - 是否需要重写
- * 
+ *
  * @param {Object}? options.mobileAnimate - 移动端需要特殊处理
  * @param {string} options.mobileAnimate.styleID - css 加载的容器 ，id 应与 content 中 css 容器的 id 相同
  * @param {string} options.mobileAnimate.string - markdown 加载的容器，id 应与 content 中 md 容器的 id 相同
@@ -229,7 +229,7 @@ function load(contents) {
 
 #### 移动端处理
 
-没有动图…… 请[点击预览](https://qishaoxuan.github.io/animate_resume_ts/)在手机或者谷歌调试中自行查看
+没有动图…… 请[点击预览](https://zhangximufeng.github.io/animate_resume_ts/)在手机或者谷歌调试中自行查看
 
 展示样式我们可以直接在渲染的 `CSS` 代码动画中自定义，所以不过多解释
 
@@ -281,9 +281,9 @@ function getInterval(str: string, interval = 16): number {
 
 ## 结束
 
-基本的实现思路已经说完，具体的代码贴上来实在是篇幅太长，请[查看源码](https://github.com/QiShaoXuan/animate_resume_ts)。
+基本的实现思路已经说完，具体的代码贴上来实在是篇幅太长，请[查看源码](https://github.com/zhangximufeng/animate_resume_ts)。
 
-不了解 `typescript` 的同学可以看[这里](https://github.com/QiShaoXuan/animate_resume)，这是我年初时用 `js` 写的，不过算是面向过程编写，没有做过多的封装处理。
+不了解 `typescript` 的同学可以看[这里](https://github.com/zhangximufeng/animate_resume)，这是我年初时用 `js` 写的，不过算是面向过程编写，没有做过多的封装处理。
 
 ## 写在最后
 
